@@ -14,7 +14,7 @@ Bob_adress	 		= "1ANRQ9bEJZcwXiw7YZ6uE5egrE7t9gCyip"
 Bob_hashed_pubkey	= base58.b58decode_check(Bob_adress)[1:].encode("hex")
 
 
-Alice_private_key	= "CF933A6C602069F1CBC85990DF087714D7E86DF0D0E48398B7D8953E1F03534A"
+Alice_private_key	= ""
 
 #############################################################################
 class raw_tx:
