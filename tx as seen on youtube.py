@@ -81,7 +81,7 @@ vk = sk.verifying_key
 
 public_key = ('\04' + vk.to_string()).encode("hex")
 
-signature = sk.sign_digest(hashed_tx_to_sign, sigencode = ecdsa.util.sigencode_der)
+signature = sk.sign_digest(hashed_tx_to_sign, sigencode = ecdsa.util.sigencode_der_canonize)
 
 sigscript = (
 
